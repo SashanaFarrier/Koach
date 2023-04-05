@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koach/Login</title>
+    <link rel="stylesheet" href="../public/main.css" />
+  </head>
+  <body class="font-sans text-paraClr overflow-x-hidden">
+    <header id="header" class="p-4 relative shadow-md md:h-20">
+      <div class="container mx-auto flex justify-between items-center gap-4">
+        <div class="column__left flex items-center gap-4">
+          <div class="md:hidden hamburger-menu-btn">
+            <i class="fa-solid fa-bars text-2xl"></i>
+          </div>
+          <a href="index.html"
+            ><img src="/public/images/logo_blue.png" alt="" class="w-10"
+          /></a>
+        </div>
+        <div
+          class="hidden column__center grow flex-shrink-0 fixed inset-0 bg-slate-600 w-80 p-6 md:block md:bg-transparent md:relative md:p-0"
+        >
+          <div class="top__container flex items-center gap-6">
+            <div class="close-menu-btn md:hidden">
+              <i class="fa-solid fa-xmark text-2xl text-black"></i>
+            </div>
+            <a href="#" class="md:hidden"
+              ><img src="/public/images/logo_blue.png" alt="" class="w-14"
+            /></a>
+            <nav class="mt-8 md:mt-0">
+              <ul class="flex flex-col md:flex-row md:items-center" role="list">
+                <!-- space-x-6 -->
+                <li class="mb-1 box-border md:mb-0">
+                  <a href="" class="inline-block p-2 min-w-full md:text-sm"
+                    >Find a Coach</a
+                  >
+                </li>
+                <li class="mb-1 md:mb-0">
+                  <a href="" class="inline-block p-2 min-w-full md:text-sm"
+                    >Busines to Business Consultation</a
+                  >
+                </li>
+                <li class="mb-1 md:mb-0">
+                  <a
+                    href=""
+                    class="inline-block p-2 min-w-full hover:bg-white hover:text-darkBlue md:text-sm"
+                    >Mentor</a
+                  >
+                </li>
+                <li class="mb-1 md:mb-0">
+                  <a
+                    href=""
+                    class="inline-block p-2 min-w-full hover:bg-white hover:text-darkBlue md:text-sm"
+                    >Content Creation</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="btns flex flex-1 gap-4 max-w-sm md:">
+          <!-- md:space-x-3 -->
+          <button
+            class="btn text-white flex-1 py-2 bg-russianViolet font-bold rounded-sm"
+          >
+            Login
+          </button>
+          <button
+            class="btn font-bold flex-1 py-2 rounded-sm border-2 border-russianViolet"
+          >
+            Join now
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="m-16">
+        <div class="container mx-auto flex justify-between items-center">
+          <div class="col-left basis-2/5">
+            <h1 class="font-playfairDisplay text-5xl mb-4">
+              Welcome to our professional community
+            </h1>
+            <form action="">
+              <div class="container mx-auto flex flex-col gap-4">
+                <div class="email flex flex-col">
+                  <label for="email">Email or phone</label>
+                  <input
+                    class="border border-russianViolet rounded-sm p-2"
+                    type="text"
+                  />
+                </div>
+                <div class="password flex flex-col">
+                  <label for="password">Password</label>
+                  <input
+                    class="border border-russianViolet rounded-sm p-2"
+                    type="text"
+                  />
+                </div>
+                <p><a href="">Forgot password?</a></p>
+                <button
+                  class="btn font-bold text-center text-white flex-1 py-2 rounded-full border-2 bg-russianViolet w-full"
+                >
+                  Sign in
+                </button>
+                <div class="alternative flex flex-col">
+                  <div class="flex justify-center items-center gap-4 mb-4">
+                    <div class="w-full h-1 bg-gradient"></div>
+                    <p>or</p>
+                    <div class="w-full h-1 bg-gradient"></div>
+                  </div>
+
+                  <button
+                    class="btn font-bold text-center flex-1 py-2 rounded-full border-2 mb-4"
+                  >
+                    Continue with Google
+                  </button>
+                  <button
+                    class="btn font-bold text-center flex-1 py-2 rounded-full border-2"
+                  >
+                    New to <span class="font-bold text-darkBlue">Koach</span>?
+                    Join now
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-right basis-2/5">
+            <img
+              class="w-full"
+              src="../public/images/undraw_join_re_w1lh.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="bg-frenchGrey text-paraClr py-8">
+        <div class="container mx-auto">
+          <h2 class="font-playfairDisplay text-6xl mb-4">
+            Find the service you need
+          </h2>
+          <ul class="flex flex-wrap">
+            <li class="p-4 mr-4 my-4 border border-white rounded-full">
+              <a href="">Top Sevices</a>
+            </li>
+            <li class="p-4 mr-4 my-4 border border-white rounded-full">
+              <a href="">Customer Service</a>
+            </li>
+            <li class="p-4 mr-4 my-4 border border-white rounded-full">
+              <a href="">Career Development</a>
+            </li>
+            <li class="p-4 mr-4 my-4 border border-white rounded-full">
+              <a href="">Human Resources</a>
+            </li>
+            <li class="p-4 mr-4 my-4 border border-white rounded-full">
+              <a href="">Finance and Accounting</a>
+            </li>
+            <li class="p-4 mr-4 my-4 border border-white rounded-full">
+              <a href="">Software Development</a>
+            </li>
+            <li class="p-4 mr-4 my-4 border border-white rounded-full">
+              <a href="">Web Development</a>
+            </li>
+            <li class="p-4 mr-4 my-4 border border-white rounded-full">
+              <a href="">Data Science</a>
+            </li>
+            <li class="p-4 mr-4 my-4 border border-white rounded-full">
+              <a href="">Artificial Intelligence</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- </div> -->
+      <section class="mt-16">
+        <div class="container mx-auto flex justify-between items-center py-16">
+          <div class="col-left">
+            <h2 class="font-playfairDisplay text-6xl mb-4">
+              Who is <span class="font-bold text-darkBlue">Koach</span> for?
+            </h2>
+            <p class="text-3xl mb-8">
+              Anyone looking for a professional service.
+            </p>
+            <a
+              class="btn font-bold text-white text-2xl px-8 py-2 rounded-full bg-russianViolet"
+              href=""
+              >Get Started</a
+            >
+          </div>
+          <div class="col-right">
+            <img
+              class="w-full"
+              src="../public/images/undraw_online_discussion_re_nn7e.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-russianViolet text-white mt-8 p-8">
+      <ul class="flex justify-around">
+        <div class="col__left">
+          <li><a href="">About</a></li>
+          <li><a href="#header">Services</a></li>
+          <li><a href="">Contact Us</a></li>
+        </div>
+        <div class="col__right">
+          <li><a href="">Facebook</a></li>
+          <li><a href="">Twitter</a></li>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">LinkedIn</a></li>
+        </div>
+      </ul>
+      <div class="logo flex justify-center my-4">
+        <a href="#header"
+          ><img src="/public/images/logo_white.png" alt="" class="w-10"
+        /></a>
+      </div>
+
+      <p class="text-sm text-center">
+        Copyright &copy 2023, KOACH. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>

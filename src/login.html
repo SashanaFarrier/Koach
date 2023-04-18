@@ -5,65 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login to Koach</title>
+<!--     <link rel="stylesheet" href="../public/main.css" /> -->
     <link rel="stylesheet" href="../build.css" />
   </head>
   <body class="font-sans text-paraClr overflow-x-hidden">
-    <header id="header"  class="text-white p-4 relative bg-russianViolet md:h-20">
+    <header
+      id="header"
+      class="text-white p-4 relative bg-russianViolet md:h-20"
+    >
       <div class="container mx-auto flex justify-between items-center gap-4">
         <div class="column__left flex items-center gap-4">
           <div class="md:hidden hamburger-menu-btn">
             <i class="fa-solid fa-bars text-2xl"></i>
           </div>
-          <a href="index.html"><img src="../public/images/logo_white.png" alt="logo" class="w-10" /></a>
+          <a href="index.html"
+            ><img src="../public/images/logo_white.png" alt="logo" class="w-10"
+          /></a>
         </div>
         <div
-          class="hidden column__center grow flex-shrink-0 fixed inset-0 bg-slate-600 w-80 p-6 md:block md:bg-transparent md:relative md:p-0">
+          class="hidden column__center grow flex-shrink-0 fixed inset-0 bg-slate-600 w-80 p-6 md:block md:bg-transparent md:relative md:p-0"
+        >
           <div class="top__container flex items-center gap-6">
             <div class="close-menu-btn md:hidden">
               <i class="fa-solid fa-xmark text-2xl text-black"></i>
             </div>
-            <a href="#" class="md:hidden"><img src="../public/images/logo_blue.png" alt="" class="w-14"/></a>
+            <a href="#" class="md:hidden"
+              ><img src="../public/images/logo_blue.png" alt="" class="w-14"
+            /></a>
             <nav class="mt-8 md:mt-0">
               <ul class="flex flex-col md:flex-row md:items-center" role="list">
                 <li class="mb-1 box-border md:mb-0">
-                  <a href="" class="inline-block p-2 min-w-full transition ease-in-out duration-200 hover:transition-colors hover:bg-russianViolet hover:text-white"
-                 >Find a Koach</a>
+                  <a
+                    href=""
+                    class="inline-block p-2 min-w-full transition ease-in-out duration-200 hover:transition-colors hover:bg-russianViolet hover:text-white"
+                    >Find a Koach</a
+                  >
+                </li>
+                <!-- <li class="mb-1 md:mb-0">
+                  <a
+                    href=""
+                    class="inline-block p-2 min-w-full transition ease-in-out duration-200 hover:transition-colors hover:bg-russianViolet hover:text-white"
+                    >Why Koach</a
+                  >
+                </li> -->
+                <li>
+                  <a
+                    href="about.html"
+                    class="inline-block p-2 min-w-full transition ease-in-out duration-200 hover:transition-colors hover:bg-russianViolet hover:text-white"
+                    >About Us</a
+                  >
                 </li>
                 <li>
-                  <a href="about.html" class="inline-block p-2 min-w-full transition ease-in-out duration-200 hover:transition-colors hover:bg-russianViolet hover:text-white">About Us</a>
-                </li>
-                <li>
-                  <a href="contact.html" class="inline-block p-2 min-w-full transition ease-in-out duration-200 hover:transition-colors hover:bg-russianViolet hover:text-white">Contact Us</a>
+                  <a
+                    href="contact.html"
+                    class="inline-block p-2 min-w-full transition ease-in-out duration-200 hover:transition-colors hover:bg-russianViolet hover:text-white"
+                    >Contact Us</a
+                  >
                 </li>
               </ul>
             </nav>
           </div>
         </div>
         <div class="btns max-w-sm">
-          <a href="join.html" class="btn inline-block text-center text-paraClr font-bold py-2 mr-4 bg-white rounded-sm w-24 transition ease-in-out duration-200 hover:transition-colors hover:bg-green">
-            Join now</a>     
+          <!-- md:space-x-3 -->
+          <a
+            href="join.html"
+            class="btn inline-block text-center text-paraClr font-bold py-2 mr-4 bg-white rounded-sm w-24 transition ease-in-out duration-200 hover:transition-colors hover:bg-green"
+          >
+            Join now
+          </a>
+          <!-- <button
+            class="btn font-bold flex-1 py-2 rounded-sm border-2 border-russianViolet"
+          >
+            Join now
+          </button> -->
         </div>
       </div>
     </header>
     <main>
       <section class="m-16">
-        <div class="container mx-auto flex justify-between items-center gap-16 xl:gap-0">
+        <div
+          class="container mx-auto flex justify-between items-center gap-16 xl:gap-0"
+        >
           <div class="col-left w-full max-w-md mx-auto lg:w-2/5 lg:mx-0">
-            <h1 class="font-playfairDisplay text-5xl mb-4">Welcome to our <br /><span class="text-green">professional community</span></h1>
+            <h1 class="font-playfairDisplay text-5xl mb-4">
+              Welcome to our
+              <br /><span class="text-green">professional community</span>
+            </h1>
             <form action="">
               <div class="container mx-auto flex flex-col gap-4">
                 <div class="email flex flex-col">
                   <label for="email">Email or phone</label>
-                  <input class="border border-russianViolet rounded-sm p-2"
-                    type="text" />
+                  <input
+                    class="border border-russianViolet rounded-sm p-2"
+                    type="text"
+                  />
                 </div>
                 <div class="password flex flex-col">
                   <label for="password">Password</label>
-                  <input class="border border-russianViolet rounded-sm p-2"
-                    type="text" />
+                  <input
+                    class="border border-russianViolet rounded-sm p-2"
+                    type="text"
+                  />
                 </div>
                 <p><a href="">Forgot password?</a></p>
-                <button class="btn font-bold text-center text-white flex-1 py-2 rounded-full border-2 bg-russianViolet w-full transition ease-in-out duration-200 hover:transition-colors hover:bg-green">
+                <button
+                  class="btn font-bold text-center text-white flex-1 py-2 rounded-full border-2 bg-russianViolet w-full transition ease-in-out duration-200 hover:transition-colors hover:bg-green"
+                >
                   Sign in
                 </button>
                 <div class="alternative flex flex-col">
@@ -72,20 +120,37 @@
                     <p>or</p>
                     <div class="w-full h-1 bg-gradient"></div>
                   </div>
-                  <button class="btn font-bold text-center flex justify-center items-center py-2 rounded-full border-2 mb-4">
-                    <img class="w-5 mr-2 -mt-1" src="../public/images/google-logo.png" alt="" />
-                    Continue with Google</button>
-                  <button class="btn font-bold text-center flex-1 py-2 rounded-full border-2">
+
+                  <button
+                    class="btn font-bold text-center flex justify-center items-center py-2 rounded-full border-2 mb-4"
+                  >
+                    <img
+                      class="w-5 mr-2 -mt-1"
+                      src="../public/images/google-logo.png"
+                      alt=""
+                    />
+                    Continue with Google
+                  </button>
+                  <button
+                    class="btn font-bold text-center flex-1 py-2 rounded-full border-2"
+                  >
                     New to <span class="font-bold text-darkBlue">Koach</span>?
-                    <a class="font-normal text-green transition ease-in-out duration-200 hover:transition-colors hover:text-russianViolet"
-                      href="join.html">Join now</a>
+                    <a
+                      class="font-normal text-green transition ease-in-out duration-200 hover:transition-colors hover:text-russianViolet"
+                      href="join.html"
+                      >Join now</a
+                    >
                   </button>
                 </div>
               </div>
             </form>
           </div>
           <div class="col-right hidden lg:w-2/5 lg:block">
-            <img class="w-full" src="../public/images/undraw_join_re_w1lh.svg" alt=""/>
+            <img
+              class="w-full"
+              src="../public/images/undraw_join_re_w1lh.svg"
+              alt=""
+            />
           </div>
         </div>
       </section>
@@ -98,33 +163,46 @@
             <li class="p-4 mr-4 my-4 max-w-max">
               <a href="">Top Sevices</a>
             </li>
-            <li class="p-4 mr-4 my-4 border border-white rounded-full max-w-max">
+            <li
+              class="p-4 mr-4 my-4 border border-white rounded-full max-w-max"
+            >
               <a href="">Customer Service</a>
             </li>
-            <li class="p-4 mr-4 my-4 border border-white rounded-full max-w-max">
+            <li
+              class="p-4 mr-4 my-4 border border-white rounded-full max-w-max"
+            >
               <a href="">Career Development</a>
             </li>
             <li class="p-4 mr-4 my-4 max-w-max">
               <a href="">Human Resources</a>
             </li>
-            <li class="p-4 mr-4 my-4 border border-white rounded-full max-w-max">
+            <li
+              class="p-4 mr-4 my-4 border border-white rounded-full max-w-max"
+            >
               <a href="">Finance and Accounting</a>
             </li>
-            <li class="p-4 mr-4 my-4 border border-white rounded-full max-w-max">
+            <li
+              class="p-4 mr-4 my-4 border border-white rounded-full max-w-max"
+            >
               <a href="">Software Development</a>
             </li>
             <li class="p-4 mr-4 my-4 max-w-max">
               <a href="">Web Development</a>
             </li>
-            <li class="p-4 mr-4 my-4 border border-white rounded-full max-w-max">
+            <li
+              class="p-4 mr-4 my-4 border border-white rounded-full max-w-max"
+            >
               <a href="">Data Science</a>
             </li>
-            <li class="p-4 mr-4 my-4 border border-white rounded-full max-w-max">
+            <li
+              class="p-4 mr-4 my-4 border border-white rounded-full max-w-max"
+            >
               <a href="">Artificial Intelligence</a>
             </li>
           </ul>
         </div>
       </section>
+      <!-- </div> -->
       <section class="mt-16">
         <div class="container mx-auto flex justify-between py-16">
           <div class="col-left">
@@ -141,11 +219,21 @@
               <li>People looking for solutions to business roadblocks</li>
               <li>People looking to discuss professional growth</li>
             </ul>
-            <a class="btn text-white text-2xl px-8 py-2 rounded-full bg-russianViolet hover:bg-green hover:text-darkBlue transition ease-in duration-500 hover:transition-colors"
-              href="">Get Started</a>
+            <!-- <p class="text-3xl mb-8">
+              Anyone looking for a professional service.
+            </p> -->
+            <a
+              class="btn text-white text-2xl px-8 py-2 rounded-full bg-russianViolet hover:bg-green hover:text-darkBlue transition ease-in duration-500 hover:transition-colors"
+              href=""
+              >Get Started</a
+            >
           </div>
           <div class="col-right">
-            <img class="w-full" src="../public/images/undraw_online_discussion_re_nn7e.svg" alt="" />
+            <img
+              class="w-full"
+              src="../public/images/undraw_online_discussion_re_nn7e.svg"
+              alt=""
+            />
           </div>
         </div>
       </section>
@@ -153,32 +241,56 @@
     <footer class="bg-russianViolet text-white mt-8 p-8 md:mt-16">
       <div class="container mx-auto">
         <div class="w-4/5 mx-auto md:flex justify-between">
-          <div class="logo__container flex flex-col justify-center items-center mb-8 md:mb-0 md:max-w-xs md:items-end">
-            <a class="" href="#header"><img src="../public/images/logo_white.png" alt="logo" class="w-20" />
+          <div
+            class="logo__container flex flex-col justify-center items-center mb-8 md:mb-0 md:max-w-xs md:items-end"
+          >
+            <a class="" href="#header"
+              ><img src="../public/images/logo_white.png" alt="" class="w-20" />
             </a>
+            <!-- <p class="text-green text-3xl text-center my-8  md:text-left md:mt-4">Find the profesional help you need.</p> -->
           </div>
           <ul class="md:w-1/2 md:flex md:justify-between md:items-end">
+            <!-- flex justify-between md:gap-16 md:grow md:justify-start -->
             <div class="col__left text-center md:text-left">
               <li>
-                <a class="hover:text-green transition ease-in duration-500 hover:transition-colors" href="about.html">About Us</a>
+                <a
+                  class="hover:text-green transition ease-in duration-500 hover:transition-colors"
+                  href="about.html"
+                  >About Us</a
+                >
               </li>
               <li>
-                <a class="hover:text-green transition ease-in duration-500 hover:transition-colors" href="contact.html">Contact Us</a>
+                <a
+                  class="hover:text-green transition ease-in duration-500 hover:transition-colors"
+                  href="contact.html"
+                  >Contact Us</a
+                >
               </li>
               <li>
-                <a class="hover:text-green transition ease-in duration-500 hover:transition-colors" href="">Explore</a>
+                <a
+                  class="hover:text-green transition ease-in duration-500 hover:transition-colors"
+                  href=""
+                  >Explore</a
+                >
               </li>
               <li>
-                <a class="hover:text-green transition ease-in duration-500 hover:transition-colors" href="join.html">Become a Koach</a>
+                <a
+                  class="hover:text-green transition ease-in duration-500 hover:transition-colors"
+                  href="join.html"
+                  >Become a Koach</a
+                >
               </li>
             </div>
-            <div class="social__links col__right flex justify-center gap-4 my-8 md:my-0">
+            <div
+              class="social__links col__right flex justify-center gap-4 my-8 md:my-0"
+            >
               <li class="facebook">
                 <a href="https://www.facebook.com/koachoff/" target="_blank">
                   <svg
                     class="w-5 fill-white hover:fill-green transition ease-in duration-500 hover:transition-colors"
                     xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512">
+                    viewBox="0 0 448 512"
+                  >
                     <path
                       d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"
                     />
@@ -230,6 +342,7 @@
             </div>
           </ul>
         </div>
+
         <p class="text-sm text-center text-frenchGrey md:mt-8">
           Copyright &copy 2023, KOACH. All rights reserved.
         </p>
